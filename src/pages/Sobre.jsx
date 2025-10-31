@@ -17,7 +17,50 @@ export default function Sobre() {
         onClick={() => navigate("/")}
       />
 
-      {/* Título */}
+      {/* English Version */}
+      <h1
+        className="text-[#261f6c] text-2xl font-bold mb-4"
+        style={{ fontFamily: "Comfortaa, sans-serif" }}
+      >
+        About Maré Alta
+      </h1>
+
+      <div className="text-[#136faf] text-base max-w-md leading-relaxed space-y-4 mb-10">
+        <p>
+          <strong>Maré Alta</strong> is an app that connects blockchain
+          technology and community recognition to strengthen local initiatives.
+        </p>
+
+        <p>
+          The platform works as a system of{" "}
+          <strong>verified actions and presences</strong>, transparently and
+          immutably recorded on the <strong>Solana</strong> blockchain.
+        </p>
+
+        <p>
+          Every participation — in collective efforts, workshops, or events —
+          generates a <strong>unique digital record</strong> that proves the real
+          contribution of people and collectives. These records can turn into{" "}
+          <strong>recognition tokens</strong>, allowing communities to build a
+          history of social impact that highlights those who make a difference
+          in their territories.
+        </p>
+
+        <p>
+          More than just an app, <strong>Maré Alta</strong> is a tool that brings{" "}
+          <strong>visibility and trust</strong> to community actions — without
+          intermediaries.
+        </p>
+
+        <p>
+          <strong>
+            Open technology, data in people's hands — and each tide representing
+            a new cycle of collaboration and belonging.
+          </strong>
+        </p>
+      </div>
+
+      {/* Portuguese Version */}
       <h1
         className="text-[#261f6c] text-2xl font-bold mb-4"
         style={{ fontFamily: "Comfortaa, sans-serif" }}
@@ -25,7 +68,6 @@ export default function Sobre() {
         Sobre o Maré Alta
       </h1>
 
-      {/* Texto descritivo */}
       <div className="text-[#136faf] text-base max-w-md leading-relaxed space-y-4 mb-8">
         <p>
           O <strong>Maré Alta</strong> é um aplicativo que une tecnologia
@@ -63,12 +105,12 @@ export default function Sobre() {
         </p>
       </div>
 
-      {/* Link Voltar */}
+      {/* Back Button */}
       <p
         onClick={() => navigate("/login")}
         className="text-[#136fae] text-[15px] font-roboto cursor-pointer hover:underline"
       >
-        Voltar
+        Back / Voltar
       </p>
     </div>
   );
